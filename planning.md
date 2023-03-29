@@ -34,3 +34,11 @@ Representing a spatial body such as a star, a planet, a satellite, etc.
 - `position`: Vector2 denoting the position of the object
 - `scale`: Vector2 denoting the scale of the object
 - `planetObject`: [PlanetObject](#PlanetObject) associated with this body, or `null` if the body cannot be landed on
+
+
+### System
+A star system containing bodies
+
+#### Attributes
+- `name`: String denoting the name of the system
+- `bodies`: List of [spatial bodies](#SpatialBody) in the system
