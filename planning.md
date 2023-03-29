@@ -20,3 +20,7 @@
 - Market/trading, information, government office, quests, RP stories, etc
   - Gain new party members
 - Includes planets as well as moon, uninhabited sattelites, etc.
+
+# Documentation
+
+## Objects
