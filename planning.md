@@ -24,3 +24,13 @@
 # Documentation
 
 ## Objects
+
+### SpatialBody
+Representing a spatial body such as a star, a planet, a satellite, etc.
+
+#### Attributes
+- `name`: String denoting the name of the body
+- `image`: String denoting path to image file
+- `position`: Vector2 denoting the position of the object
+- `scale`: Vector2 denoting the scale of the object
+- `planetObject`: [PlanetObject](#PlanetObject) associated with this body, or `null` if the body cannot be landed on
