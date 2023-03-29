@@ -1,11 +1,17 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
+[ext_resource path="res://Scenes/Stellar Bodies.gd" type="Script" id=1]
 [ext_resource path="res://Images/starry-sky-2.jpg" type="Texture" id=2]
+[ext_resource path="res://Scenes/SpaceSystemView.gd" type="Script" id=3]
 
 [node name="SpaceSystemView" type="Node2D"]
+script = ExtResource( 3 )
 
 [node name="Background" type="TextureRect" parent="."]
 margin_right = 7952.0
 margin_bottom = 5304.0
 rect_scale = Vector2( 0.129, 0.129 )
 texture = ExtResource( 2 )
+
+[node name="Stellar Bodies" type="Node" parent="."]
+script = ExtResource( 1 )
