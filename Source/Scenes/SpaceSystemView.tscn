@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Images/starry-sky-2.jpg" type="Texture" id=2]
+
+[node name="SpaceSystemView" type="Node2D"]
+
+[node name="Background" type="TextureRect" parent="."]
+margin_right = 7952.0
+margin_bottom = 5304.0
+rect_scale = Vector2( 0.129, 0.129 )
+texture = ExtResource( 2 )
