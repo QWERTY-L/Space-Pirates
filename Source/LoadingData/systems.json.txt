@@ -1,0 +1,16 @@
+{
+  "systems" : [
+    {
+      "name": "Sol",
+      "bodies": [
+        {
+          "name": "Sol",
+          "image": "res://Images/Systems/star_orange01.png",
+          "position": "Vector2(500, 300)",
+          "scale": "Vector2(0.1, 0.1)",
+          "bodies": null
+        }
+      ]
+    }
+  ]
+}

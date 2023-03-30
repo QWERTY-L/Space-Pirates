@@ -7,6 +7,9 @@
 [node name="SpaceSystemView" type="Node2D"]
 script = ExtResource( 3 )
 
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 512, 300 )
+
 [node name="Background" type="TextureRect" parent="."]
 margin_right = 7952.0
 margin_bottom = 5304.0

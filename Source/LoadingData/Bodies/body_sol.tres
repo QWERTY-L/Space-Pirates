@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/SpatialBody.gd" type="Script" id=1]
+
+[resource]
+resource_name = "SpatialBody"
+script = ExtResource( 1 )
+name = "Sol"
+image = "res://Images/Systems/star_orange01.png"
+position = Vector2( 500, 300 )
+scale = Vector2( 0.1, 0.1 )
+planetObject = ""
